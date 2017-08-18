@@ -1,0 +1,15 @@
+.blue {
+	color: blue;
+}
+
+.hulk {
+	font-size: 20px;
+}
+
+.capture {
+	border: 2px 2px black;
+}
+
+.round {
+	border-radius: 50%;
+}

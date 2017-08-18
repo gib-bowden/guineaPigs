@@ -15,12 +15,8 @@
 // Make the buttons stop appearing next to each other as inline elements. Change them into block elements.
 
 
-
-
-
-
-
-outputTarget = document.getElementById("output-target"); 
+outputTarget = document.getElementById("output-target");
+guineaPig = document.getElementById("guinea-pig");
 
 
 document.getElementById("section-container").addEventListener("click",(e) => {
@@ -40,9 +36,29 @@ document.getElementById("page-title").addEventListener("mouseout",(e) => {
 document.getElementById("keypress-input").addEventListener("keypress",(e) => {
 	console.log(e);
 	if (e.key !== "Enter") {
+	console.log(e)
 	 outputTarget.innerHTML = e.target.value + e.key;
 	}
 })
+
+
+document.getElementById("add-color").addEventListener("click", () => {
+ 	guineaPig.classList.add("blue")
+})
+
+document.getElementById("make-large").addEventListener("click", (e) => {
+	guineaPig.classList.add("hulk")
+})
+
+document.getElementById("add-border").addEventListener("click", (e) => {
+	guineaPig.classList.add("capture")
+})
+
+document.getElementById("add-rounding").addEventListener("click", (e) => {
+	guineaPig.classList.add("round")
+})
+
+
 
 
 
