@@ -13,3 +13,15 @@
 .round {
 	border-radius: 20%;
 }
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.button {
+	display: block;
+}
