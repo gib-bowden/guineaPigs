@@ -1,5 +1,5 @@
-outputTarget = document.getElementById("output-target");
-guineaPig = document.getElementById("guinea-pig");
+var outputTarget = document.getElementById("output-target");
+var guineaPig = document.getElementById("guinea-pig");
 
 
 document.getElementById("section-container").addEventListener("click",(e) => {
